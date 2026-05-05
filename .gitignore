@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local datasets and notebook outputs
+data/
+datasets/
+runs/
+outputs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# Predictions and rendered media
+predictions/
+*.mp4
+*.avi
+*.mov
+
+# Secrets and personal machine paths
+.env
+*.env
+secrets/
+
+# Notebook execution noise
+.ipynb_checkpoints/
